@@ -11,7 +11,7 @@ import SwiftUI
 struct BookmarkUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListBookmarks()
         }
     }
 }

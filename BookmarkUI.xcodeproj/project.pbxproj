@@ -11,6 +11,10 @@
 		B85303E72B6FCDC700E9FA45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85303E62B6FCDC700E9FA45 /* ContentView.swift */; };
 		B85303E92B6FCDC900E9FA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85303E82B6FCDC900E9FA45 /* Assets.xcassets */; };
 		B85303EC2B6FCDC900E9FA45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85303EB2B6FCDC900E9FA45 /* Preview Assets.xcassets */; };
+		B85303F32B6FCE9300E9FA45 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85303F22B6FCE9300E9FA45 /* WelcomeScreen.swift */; };
+		B85303F52B6FE82400E9FA45 /* AddBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85303F42B6FE82400E9FA45 /* AddBookmarkView.swift */; };
+		B85303F72B6FEE2000E9FA45 /* SaveBookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85303F62B6FEE2000E9FA45 /* SaveBookmark.swift */; };
+		B85303F92B700C1700E9FA45 /* ListBookmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85303F82B700C1700E9FA45 /* ListBookmarks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		B85303E62B6FCDC700E9FA45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B85303E82B6FCDC900E9FA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B85303EB2B6FCDC900E9FA45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B85303F22B6FCE9300E9FA45 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		B85303F42B6FE82400E9FA45 /* AddBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookmarkView.swift; sourceTree = "<group>"; };
+		B85303F62B6FEE2000E9FA45 /* SaveBookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveBookmark.swift; sourceTree = "<group>"; };
+		B85303F82B700C1700E9FA45 /* ListBookmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBookmarks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				B85303E42B6FCDC700E9FA45 /* BookmarkUIApp.swift */,
 				B85303E62B6FCDC700E9FA45 /* ContentView.swift */,
+				B85303F22B6FCE9300E9FA45 /* WelcomeScreen.swift */,
+				B85303F62B6FEE2000E9FA45 /* SaveBookmark.swift */,
+				B85303F42B6FE82400E9FA45 /* AddBookmarkView.swift */,
+				B85303F82B700C1700E9FA45 /* ListBookmarks.swift */,
 				B85303E82B6FCDC900E9FA45 /* Assets.xcassets */,
 				B85303EA2B6FCDC900E9FA45 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85303F32B6FCE9300E9FA45 /* WelcomeScreen.swift in Sources */,
+				B85303F72B6FEE2000E9FA45 /* SaveBookmark.swift in Sources */,
 				B85303E72B6FCDC700E9FA45 /* ContentView.swift in Sources */,
+				B85303F52B6FE82400E9FA45 /* AddBookmarkView.swift in Sources */,
 				B85303E52B6FCDC700E9FA45 /* BookmarkUIApp.swift in Sources */,
+				B85303F92B700C1700E9FA45 /* ListBookmarks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
